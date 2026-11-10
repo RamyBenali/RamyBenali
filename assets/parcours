@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 268" width="840" height="268" role="img" aria-label="Parcours : bac 2022, licence informatique 2025, master 1 génie logiciel 2026, L3 informatique à Montbéliard et Frog Tech, stage en mars 2027.">
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="740" y2="0">
+      <stop offset="0" stop-color="#30363d"/>
+      <stop offset="0.75" stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+      .y{font-size:12px;fill:#3fb950;letter-spacing:.5px}
+      .t{font-size:14px;font-weight:600;fill:#f0f6fc}
+      .d{font-size:12px;fill:#9198a1}
+      .draw{stroke-dasharray:640;animation:draw 1.6s ease-out .2s both}
+      @keyframes draw{from{stroke-dashoffset:640}to{stroke-dashoffset:0}}
+      .n{animation:pop .45s ease-out both}
+      @keyframes pop{from{opacity:0;transform:translateY(8px)}}
+      .ring{transform-box:fill-box;transform-origin:center;animation:ring 2s ease-out infinite}
+      @keyframes ring{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="266" rx="14" fill="#0d1218" stroke="#30363d"/>
+  <text x="32" y="38" class="mono" font-size="12" fill="#6e7681" letter-spacing="1">PARCOURS</text>
+
+  <g transform="translate(0 18)">
+  <path class="draw" d="M100 130H740" stroke="url(#line)" stroke-width="2" fill="none"/>
+  <path d="M662 130H740" stroke="#0d1218" stroke-width="4" stroke-dasharray="5 6"/>
+
+  <!-- 1 : au-dessus -->
+  <g class="n sans" style="animation-delay:.3s" text-anchor="middle">
+    <path d="M100 118v-14" stroke="#30363d"/>
+    <text class="mono y" x="100" y="62">2022</text>
+    <text class="t" x="100" y="82">Bac</text>
+    <text class="d" x="100" y="99">Sciences expérimentales</text>
+    <circle cx="100" cy="130" r="6" fill="#0d1218" stroke="#8b949e" stroke-width="2"/>
+  </g>
+  <!-- 2 : en dessous -->
+  <g class="n sans" style="animation-delay:.6s" text-anchor="middle">
+    <path d="M260 142v14" stroke="#30363d"/>
+    <text class="mono y" x="260" y="174">2025</text>
+    <text class="t" x="260" y="194">Licence Informatique</text>
+    <text class="d" x="260" y="211">Université de Béjaïa</text>
+    <circle cx="260" cy="130" r="6" fill="#0d1218" stroke="#8b949e" stroke-width="2"/>
+  </g>
+  <!-- 3 : au-dessus -->
+  <g class="n sans" style="animation-delay:.9s" text-anchor="middle">
+    <path d="M420 118v-14" stroke="#30363d"/>
+    <text class="mono y" x="420" y="62">2026</text>
+    <text class="t" x="420" y="82">Master 1 Génie logiciel</text>
+    <text class="d" x="420" y="99">Université de Béjaïa</text>
+    <circle cx="420" cy="130" r="6" fill="#0d1218" stroke="#8b949e" stroke-width="2"/>
+  </g>
+  <!-- 4 : en dessous -->
+  <g class="n sans" style="animation-delay:1.2s" text-anchor="middle">
+    <path d="M580 142v14" stroke="#30363d"/>
+    <text class="mono y" x="580" y="174">AUJOURD'HUI</text>
+    <text class="t" x="580" y="194">L3 Informatique + Frog Tech</text>
+    <text class="d" x="580" y="211">Montbéliard · dev full stack</text>
+    <circle cx="580" cy="130" r="7" fill="#3fb950"/>
+  </g>
+  <!-- 5 : au-dessus -->
+  <g class="n sans" style="animation-delay:1.5s" text-anchor="middle">
+    <path d="M740 118v-14" stroke="#30363d"/>
+    <text class="mono y" x="740" y="62">MARS 2027</text>
+    <text class="t" x="740" y="82">Stage · 3 mois</text>
+    <text class="d" x="740" y="99">Île-de-France · à pourvoir</text>
+    <circle class="ring" cx="740" cy="130" r="6" fill="none" stroke="#3fb950" stroke-width="1.5"/>
+    <circle cx="740" cy="130" r="6" fill="#0d1218" stroke="#3fb950" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+</g>
+</svg>
